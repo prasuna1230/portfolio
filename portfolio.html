@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio Website Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css" />
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <div class="main-panel" style="background-color:white;" id="home">
+        <div class="container">
+            <div class="width-33 logo">Port <span class="span-col">folio</span></div>
+            <div class="width-66">
+                <nav>
+                    <a href="#home"><span class="span-col">Home</span></a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Banner Section -->
+        <div class="container">
+            <div class="width-50">
+                <div class="banner-section">
+                    <span class="span-col">Welcome To my portfolio</span>
+                    <h1><span class="span-col">Gnana Prasuna</span> Manchina</h1>
+                    <h2>- I am looking to work in a dynamic environment that uses my skills and expertise in process of growth and development while allowing me to learn and enrich my competencies. To be associated with an organization which gives me a career
+                        path and job satisfaction using my skills.</h2>
+                    <a href="prasuna_manchina"><i class="fa fa-facebook"></i></a>
+                    <a href="prasuna_manchina"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/manchina-prasuna-16862a252"><i class="fa fa-linkedin"></i></a>
+                    <a href="prasuna_manchina"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/prasuna1230"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+            <div class="width-501">
+                <img src="pic.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="main-section bg-lightgrey" style="background-color:white" id="about">
+        <div class="container">
+            <div class="width-50">
+                <img src="pic.jpg">
+            </div>
+            <div class="width-50">
+                <div class="about-us">
+                    <h2 class="heading-text">About Me</h2>
+                    <h3>Hello, it's Me</h3><br>
+                    <h1>Prasuna Manchina</h1><br>
+                    <p>I have developed key skills through hands-on projects and internships, and I am eager to apply my knowledge in real-world scenarios. I am enthusiastic about continuous learning and contributing to innovative solutions in my field.</p>
+                    <div class="width-50 mt-20">
+                        <table cellspacing="8" cellpadding="8">
+                            <tr>
+                                <th>Name:</th>
+                                <td>Gnana Prasuna</td>
+                            </tr>
+                            <tr>
+                                <th>Email:</th>
+                                <td>prasunamanchina@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th>Birthday:</th>
+                                <td>02 June 2003</td>
+                            </tr>
+                            <tr>
+                                <th>Study:</th>
+                                <td>SITE</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="width-50 mt-20">
+                        <table cellspacing="8" cellpadding="8">
+                            <tr>
+                                <th>Phone:</th>
+                                <td>9652791479</td>
+                            </tr>
+                            <tr>
+                                <th>City:</th>
+                                <td>Thadepalligudem</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="color:blue;text-align:center;font-size:36px;">Projects</h2>
+    <section id="projects">
+        <br>
+        <br>
+        <article>
+            <h3>Project-1:SMS Spam Detection</h3>
+            <p>SMS spam detection is a crucial application of machine learning that focuses on identifying unwanted or fraudulent text messages (spam) and distinguishing them from legitimate messages (ham). With the increase in mobile communication, the
+                need for efficient spam detection mechanisms has become paramount to prevent the spread of phishing attempts, promotional content, and other unsolicited messages that can disrupt user experience and even pose security risks.</p>
+
+        </article>
+        <article>
+            <h3>Project-2:Restaurant</h3>
+            <p>At "Delicious Restaurant", we take pride in serving the finest non-vegetarian dishes, crafted with the freshest ingredients and authentic spices. Our menu is a celebration of flavors, offering a range of mouth-watering biryanis and other non-veg
+                delights.
+            </p>
+            <img src="project2.png" alt="Screenshot of Project 3" height="500px" width="500px">
+        </article>
+        <article>
+            <h3>Project-3:Digital Voting System</h3>
+            <p>A Digital Voting System is an electronic solution designed to facilitate the voting process, replacing traditional paper-based methods with digital technology. This system allows voters to cast their votes electronically, often via computers,
+                smartphones, or specialized voting machines. The main advantages of a digital voting system include enhanced efficiency, faster vote tallying, and reduced human error in counting votes.</p>
+            <img src="Project-3.png" height="500px" width="500px">
+        </article>
+    </section>
+    <br><br>
+    <h2 style="color:blue;text-align:center;font-size:36px;">Contact </h2>
+    <section id="contact">
+        <p>I’d love to hear from you! Whether you have a question, want to discuss a potential project, or just want to say hello, feel free to get in touch with me through any of the channels below. Get in Touch</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phnno.">Phone Number:</label>
+            <input type="email" id="phnno." name="phnno." required>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
